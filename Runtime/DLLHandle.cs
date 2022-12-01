@@ -214,7 +214,7 @@ public class DLLHandle : SafeHandle
             return true;
         }
         bool didUnload = true;
-#if !UNITY_EDITOR
+#if !UNITY_EDITOR && UNITY_STANDALONE
         didUnload = SystemDynamicLibrary.Instance.UnloadLibrary(handle);
         print("Unloading a Dll with result : " + didUnload);
 #endif
