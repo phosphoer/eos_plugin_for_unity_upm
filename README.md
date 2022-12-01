@@ -1,6 +1,6 @@
 # Epic Online Services Plugin for Unity (UPM package)
 
-#Fork changes
+## Fork changes
 I made this fork to remove compile errors on unsupported platforms so the package can be safely included there without breaking builds. 
 
 ## Overview
