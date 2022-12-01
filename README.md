@@ -1,5 +1,8 @@
 # Epic Online Services Plugin for Unity (UPM package)
 
+#Fork changes
+I made this fork to remove compile errors on unsupported platforms so the package can be safely included there without breaking builds. 
+
 ## Overview
 The [eos_plugin_for_unity_upm repository](https://github.com/PlayEveryWare/eos_plugin_for_unity_upm) contains a Unity Package Manager (UPM) plugin for enabling the use of the [Epic Online Services (EOS)](https://dev.epicgames.com/docs/services/en-US/GameServices/Overview/index.html) [C# SDK](https://dev.epicgames.com/docs/services/en-US/GameServices/CSharpGettingStarted/index.html) in Unity.
 
